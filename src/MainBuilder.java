@@ -35,5 +35,13 @@ public class MainBuilder {
         System.out.println("Roman To Integer Test - valid output is 3:");
         System.out.println(romanToInteger.romanToInt("III"));
 
+        /** Message Spacer */
+        System.out.println("");
+
+        /** Longest Substring Without Repeating Characters Test */
+        LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeatingCharacters = new LongestSubstringWithoutRepeatingCharacters();
+        System.out.println("Longest Substring Without Repeating Characters - valid output is 3:");
+        System.out.println(longestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring("abcabcbb"));
+
     }
 }
