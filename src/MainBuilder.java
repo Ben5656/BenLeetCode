@@ -26,5 +26,14 @@ public class MainBuilder {
         PalindromeNumber palindromeNumber = new PalindromeNumber();
         System.out.println("Palindrome Number Test - valid output is false:");
         System.out.println(palindromeNumber.isPalindrome(123));
+
+        /** Message Spacer */
+        System.out.println("");
+
+        /** Roman To Integer Test */
+        RomanToInteger romanToInteger = new RomanToInteger();
+        System.out.println("Roman To Integer Test - valid output is 3:");
+        System.out.println(romanToInteger.romanToInt("III"));
+
     }
 }
