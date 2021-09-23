@@ -43,5 +43,14 @@ public class MainBuilder {
         System.out.println("Longest Substring Without Repeating Characters - valid output is 3:");
         System.out.println(longestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring("abcabcbb"));
 
+        /** Message Spacer */
+        System.out.println("");
+
+        /** Longest Common Prefix Test */
+        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+        String[] strs = {"flower", "flow", "flight"};
+        System.out.println("Longest Common Prefix - valid output is \"fl\":");
+        System.out.println(longestCommonPrefix.longestCommonPrefix(strs));
+
     }
 }

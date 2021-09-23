@@ -6,7 +6,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     
     public int lengthOfLongestSubstring(String s){
         char lastchar = '\0';
-        int largest = 0, counter = 0;
+        int largest = 0;
         String longest = "";
 
         if(s == ""){
@@ -15,7 +15,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
         for(int i = 0; i < s.length(); i++){
             if(s.charAt(i) == lastchar){
-                counter = 0;
+                
             } else {
                 longest = longest + s.charAt(i);
             }
