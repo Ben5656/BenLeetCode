@@ -40,7 +40,7 @@ public class MainBuilder {
 
         /** Longest Substring Without Repeating Characters Test */
         LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeatingCharacters = new LongestSubstringWithoutRepeatingCharacters();
-        System.out.println("Longest Substring Without Repeating Characters - valid output is 3:");
+        System.out.println("Longest Substring Without Repeating Characters Test - valid output is 3:");
         System.out.println(longestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring("abcabcbb"));
 
         /** Message Spacer */
@@ -49,8 +49,16 @@ public class MainBuilder {
         /** Longest Common Prefix Test */
         LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
         String[] strs = {"flower", "flow", "flight"};
-        System.out.println("Longest Common Prefix - valid output is \"fl\":");
+        System.out.println("Longest Common Prefix Test - valid output is \"fl\":");
         System.out.println(longestCommonPrefix.longestCommonPrefix(strs));
+
+        /** Message Spacer */
+        System.out.println("");
+
+        /** Valid Parentheses Test */
+        ValidParentheses validParentheses = new ValidParentheses();
+        System.out.println("Valid Parentheses - valid output is true:");
+        System.out.println(validParentheses.isValid("()"));
 
     }
 }
