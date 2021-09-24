@@ -38,6 +38,7 @@ public class MainBuilder {
         /** Message Spacer */
         System.out.println("");
 
+        //Test change
         /** Longest Substring Without Repeating Characters Test */
         LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeatingCharacters = new LongestSubstringWithoutRepeatingCharacters();
         System.out.println("Longest Substring Without Repeating Characters Test - valid output is 3:");
