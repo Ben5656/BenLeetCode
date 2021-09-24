@@ -57,8 +57,16 @@ public class MainBuilder {
 
         /** Valid Parentheses Test */
         ValidParentheses validParentheses = new ValidParentheses();
-        System.out.println("Valid Parentheses - valid output is true:");
+        System.out.println("Valid Parentheses Test - valid output is true:");
         System.out.println(validParentheses.isValid("()"));
+        
+        /** Message Spacer */
+        System.out.println("");
+
+        /** Merge Two Sorted Lists Test */
+        MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
+        System.out.println("Merge Two Sorted Lists Test - valid output is [1,1,2,3,4,4]:");
+        // Can't test yet.
 
     }
 }
