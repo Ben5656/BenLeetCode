@@ -64,9 +64,17 @@ public class MainBuilder {
         System.out.println("");
 
         /** Merge Two Sorted Lists Test */
-        MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
+        // MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
         System.out.println("Merge Two Sorted Lists Test - valid output is [1,1,2,3,4,4]:");
         // Can't test yet.
 
+        /** Message Spacer */
+        System.out.println("");
+
+        /** Remove Duplicate From Sorted Array Test */
+        RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
+        System.out.println("Remove Duplicate From Sorted Array Test - valid output is [1,2] or 2:");
+        int[] nums2 = {1,1,2};
+        System.out.println(removeDuplicatesFromSortedArray.removeDuplicates(nums2));
     }
 }
