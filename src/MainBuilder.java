@@ -76,5 +76,14 @@ public class MainBuilder {
         System.out.println("Remove Duplicate From Sorted Array Test - valid output is [1,2] or 2:");
         int[] nums2 = {1,1,2};
         System.out.println(removeDuplicatesFromSortedArray.removeDuplicates(nums2));
+
+        /** Message Spacer */
+        System.out.println("");
+
+        /** Remove Duplicate From Sorted Array Test */
+        RemoveElement removeElement = new RemoveElement();
+        System.out.println("Remove Element Test - valid output is [2,2] or 2:");
+        int[] nums3 = {3,2,2, 3};
+        System.out.println(removeElement.removeElement(nums3, 3));
     }
 }
